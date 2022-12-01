@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#contact{
+    color: #00ffff;
+}
+
+#homebg{
+	background-image: url('./img/home.jpeg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+li{
+	position: relative;
+	margin-top: 30px;
+	float: left;
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration: none;
+	position: relative;
+	margin-top: 2px;
+	padding: 0 9rem;
+	color: white;
+	font-weight: bolder;
+	
+}
+
+a:hover{
+	color: #00ffff;
+}
+
+label{
+    color: white;
+}
+
+
+#first{
+    position: relative;
+    right: 60em;
+    top: 15em;
+}
+
+#first2{
+    position: relative;
+    right: 63em;
+    top: 16.5em;
+    width: 12em;
+}
+
+#two{
+    position: relative;
+    top: 12.6em;
+    right: 40em;
+}
+
+#two2{
+    position: relative;
+    top: 9.8em;
+    width: 12em;
+    left: 65em;
+}
+
+#three{
+    position: relative;
+    top: 13em;
+    left: 15em;
+}
+
+#three2{
+    position: relative;
+    top: 15.5em;
+    left: 20em;
+    width: 41em;
+}
+
+#four{
+    position: relative;
+    top: 20em;
+    right: 22.6em;
+}
+
+#four2{
+    position: relative;
+    top: 25em;
+    right: 25em;
+    width: 25em;
+    height: 5em;
+}
+
+button{
+    color: black;
+    background-color:#00ffff;
+    position: relative;
+    top: 30em;
+    width: 10em;
+    font-weight: bolder;
+    right: 63em;
+}

@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+#homebg{
+	background-image: url('./img/home.jpeg');
+	height: 100vh;
+    width: 205vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1{
+    position: relative;
+    top: 2em;
+    left: 2em;
+    color: white;
+}
+
+button{
+	position: relative;
+	top: 6em;
+    left: 2em;
+	font-size: 30px;
+	color: #000;
+	background-color: #00ffff;
+	font-weight: bolder;
+}

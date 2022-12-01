@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#skill{
+	color: #00ffff;
+}
+
+#homebg{
+	background-image: url('./img/home.jpeg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+li{
+	position: relative;
+	margin-top: 30px;
+	float: left;
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration: none;
+	position: relative;
+	margin-top: 2px;
+	padding: 0 9rem;
+	color: white;
+	font-weight: bolder;
+	
+}
+
+a:hover{
+	color: #00ffff;
+}
+
+
+
+#names{
+    position: relative;
+    top: 22em;
+    color: white;
+    
+}
+
+#py{
+    position: relative;
+    right: 35em;
+    bottom: 6em;
+    font-size: 35px;
+    color: #3e7db0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 7s;
+    border-right: 3px solid ;
+}
+
+@keyframes text {
+    0%{
+        width: 0ch;
+    } 
+    50%{
+        width: 7ch;
+        }
+    }
+
+
+#fig{
+    position: relative;
+    right: 25em;
+    top: -1em;
+    font-size: 35px; 
+    color: #00ffff;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text2 9s;
+    border-right: 3px solid ;
+}
+
+@keyframes text2 {
+    0%{
+        width: 0ch;
+    } 
+    50%{
+        width: 6ch;
+        }
+    }
+
+#js{
+    position: relative;
+    left: 25em;
+    top: 3em;
+    font-size: 35px;
+    color:#fee05a;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text3 10s;
+    border-right: 3px solid ;
+    
+}
+
+@keyframes text3 {
+    0%{
+        width: 0ch;
+    } 
+    50%{
+        width: 11ch;
+        }
+    }
+    
+#rt{
+    position: relative;
+    left: 40em;
+    top: 6em;
+    font-size: 35px;
+    color: #67A0FF;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text4 11s;
+    border-right: 3px solid ;
+}
+
+@keyframes text4 {
+    0%{
+        width: 0ch;
+    } 
+    50%{
+        width: 5ch;
+        }
+    }

@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#edu{
+	color: #00ffff;
+}
+
+#homebg{
+	background-image: url('./img/home.jpeg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+li{
+	position: relative;
+	margin-top: 30px;
+	float: left;
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration: none;
+	position: relative;
+	margin-top: 2px;
+	padding: 0 9rem;
+	color: white;
+	font-weight: bolder;
+	
+}
+
+a:hover{
+	color: #00ffff;
+}
+
+#name{
+    position: relative;
+    color: white;
+    top: 15em;
+}
+
+#one{
+    position: relative;
+    float: left;
+    left: 8em;
+    font-size: 40px;
+}
+
+#two{
+    position: relative;
+    float: left;
+    right: 15.3em;
+    top: 3em;
+    font-size: 40px;
+}
+
+#three{
+    position: relative;
+    float: left;
+    top: 5em;
+    font-size: 40px;
+    left: 7.8em;
+}
+
+#onec{
+    color: #00ffff;
+    font-style: normal;
+}
+
+#twoc{
+    color: #00ffff;
+    font-style: normal;
+}
+
+#threec{
+    color: #00ffff;
+    font-style: normal;
+}

@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#home{
+	color: #00ffff;
+}
+
+#homebg{
+	background-image: url('./img/home.jpeg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+li{
+	position: relative;
+	margin-top: 30px;
+	float: left;
+	list-style-type: none;
+}
+
+ul li a{
+	text-decoration: none;
+	position: relative;
+	margin-top: 2px;
+	padding: 0 9rem;
+	color: white;
+	font-weight: bolder;
+	
+}
+
+a:hover{
+	color: #00ffff;
+}
+
+
+#texts{
+	position: absolute;
+	margin-top: 18em;
+	left: 155px;
+	color: white;
+}
+
+#skill{
+	color: #00ffff;
+} 
+
+h3{
+	font-size: 45px;
+}
+
+h2{
+	font-size: 45px;
+}
+
+button{
+	position: relative;
+	top: 15px;
+	font-size: 30px;
+	color: #000;
+	background-color: #00ffff;
+	font-weight: bolder;
+}
+
+#icon{
+	position: relative;
+	top: 43em;
+	right: 40em;
+}
+
+#profile{
+	position: relative;
+	top: 10em;
+	left: 65em;
+	width: 20em;
+	height: 20em;
+	border-radius: 50%;
+	border: #4CBB17 5px solid;
+}
+
